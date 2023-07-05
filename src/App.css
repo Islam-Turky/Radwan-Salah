@@ -1,0 +1,95 @@
+/* Fonts */
+@font-face {
+    font-family: Cute;
+    src: url(/CuteFont-Regular.ttf);
+}
+
+@font-face {
+    font-family: Nova;
+    src: url(/NovaCut-Regular.ttf);
+}
+
+/* Start */
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 100vh;
+    background: url(/shirt.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#container #one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.192);
+    backdrop-filter: blur(10px);
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+#container #one .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#container #one .box #logo{
+    text-align: center;
+}
+
+#container #one .box #logo h1{
+    font-family: Nova;
+    font-weight: 900;
+    font-size: 50px;
+    color: #111;
+}
+
+#container #one .box #links{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#container #one .box #links a{
+    background-color: #fff;
+    width: 300px;
+    text-decoration: none;
+    display: flex;
+    gap: 50px;
+    padding: 10px;
+    font-family: Cute;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+#facebook{
+    color: #1877f2;
+}
+#whatsapp{
+    color: #62cd6f;
+}
+#instagram{
+    color: #f501c0;
+}
+#tele{
+    color: #111;
+}
+
+#container #one .box .slogan{
+    font-family: Cute;
+    font-size: 40px;
+    text-align: center;
+}
+
+/* Responsive */
+@media (max-height:600px){
+    #container #one .box{
+        flex-direction: row;
+    }
+}
