@@ -12,7 +12,7 @@ function App() {
               <h1>Wolves Fashion</h1>
             </div>
             <div id='links'>
-              <a href="#" id='facebook'><FaFacebook /><p>Facebook</p></a>
+              <a href="https://www.facebook.com/profile.php?id=100092976475022&mibextid=ZbWKwL" id='facebook'><FaFacebook /><p>Facebook</p></a>
               <a href="#" id='whatsapp'><FaWhatsapp /><p>Whatsapp</p></a>
               <a href="#" id='instagram'><FaInstagram /><p>Instagram</p></a>
               <a href="tel:+201227684380" id='tele'><FaPhoneFlip /><p>+20 1227684380</p></a>
